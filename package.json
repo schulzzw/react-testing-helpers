@@ -1,0 +1,56 @@
+{
+  "name": "react-testing-helpers",
+  "version": "1.0.0",
+  "description": "Helper functions for react testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint:js": "eslint --ext .js,.jsx src test",
+    "lint:js:fix": "eslint --ext .js,.jsx src test --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schulzzw/react-testing-helpers.git"
+  },
+  "keywords": [
+    "react",
+    "testing",
+    "enzyme",
+    "reactjs"
+  ],
+  "author": "Zach Schulz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schulzzw/react-testing-helpers/issues"
+  },
+  "homepage": "https://github.com/schulzzw/react-testing-helpers#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "^22.4.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react-app": "^3.1.1",
+    "babel-runtime": "^6.26.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-flowtype": "^2.46.1",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "jest": "^23.3.0",
+    "jest-environment-jsdom": "^23.3.0"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-testing-library": "^4.1.2"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  }
+}
